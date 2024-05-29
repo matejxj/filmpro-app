@@ -34,10 +34,10 @@ const WantToWatchMovies = () => {
   };
 
   const handleAddMovie = (movie) => {
-    console.log('Adding movie:', movie); // Debug log
+    console.log('Adding movie:', movie); 
     axios.post('http://localhost:8001/wantToWatch/create', {
       userId: 'user1',
-      movieId: movie.id, // Ensure the correct ID is used here
+      movieId: movie.id, 
       title: movie.title,
       posterUrl: movie.posterUrl,
       description: movie.description,
@@ -45,7 +45,7 @@ const WantToWatchMovies = () => {
       rating: movie.rating
     })
       .then(response => {
-        console.log('Movie added:', response.data); // Debug log
+        console.log('Movie added:', response.data); 
         setWantToWatchMovies(prevMovies => [...prevMovies, response.data]);
       })
       .catch(error => {

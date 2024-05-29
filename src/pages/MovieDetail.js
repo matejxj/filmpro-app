@@ -7,7 +7,7 @@ const MovieDetail = () => {
   const [movie, setMovie] = useState(null);
 
   useEffect(() => {
-    console.log('Fetching details for movie ID:', id); // Debug log
+    console.log('Fetching details for movie ID:', id); 
     const fetchMovies = async () => {
       try {
         const moviesResponse = await fetch('/movies.json');
@@ -25,7 +25,7 @@ const MovieDetail = () => {
         const allMovies = [...moviesData, ...trendingMoviesData, ...watchedMoviesData];
         const selectedMovie = allMovies.find(movie => movie.id === parseInt(id));
         setMovie(selectedMovie);
-        console.log('Selected Movie:', selectedMovie); // Debug log
+        console.log('Selected Movie:', selectedMovie); 
       } catch (error) {
         console.error('Error fetching movies:', error);
       }
@@ -42,7 +42,7 @@ const MovieDetail = () => {
     ? movie.posterUrl 
     : `${process.env.PUBLIC_URL}/images/${movie.posterUrl}`;
   
-  console.log('Image URL:', imageUrl); // Debug log
+  console.log('Image URL:', imageUrl); 
 
   return (
     <div className="movie-detail-container">
