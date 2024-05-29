@@ -1,0 +1,46 @@
+[
+  {
+    "id": 12,
+    "title": "The Matrix",
+    "posterUrl": "matrix.jpg",
+    "genre": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "rating": 8.7,
+    "description": "A revolutionary sci-fi movie by the Wachowskis."
+  },
+  {
+    "id": 6,
+    "title": "The Dark Knight",
+    "posterUrl": "thedarkknight.jpg",
+    "genre": "Action",
+    "rating": "9.0",
+    "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham."
+  },
+  {
+    "id": 13,
+    "title": "Inception",
+    "posterUrl": "inception.jpg",
+    "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+    "genre": "Sci-Fi",
+    "rating": "8.8"
+  },
+  {
+    "id": 14,
+    "userId": "user1",
+    "title": "Interstellar",
+    "posterUrl": "interstellar.jpg",
+    "description": "A journey beyond the stars.",
+    "genre": "Sci-Fi",
+    "rating": 8.5
+  },
+  {
+    "id": 6,
+    "title": "The Dark Knight",
+    "posterUrl": "thedarkknight.jpg",
+    "genre": "Action",
+    "rating": "9.0",
+    "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham."
+  }
+]

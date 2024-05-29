@@ -1,0 +1,27 @@
+[
+    {
+      "id": 9,
+      "title": "Avengers: Endgame",
+      "posterUrl": "avengers.jpg",
+      "description": "The epic conclusion to the Infinity Saga.",
+      "genre": "Action",
+      "rating": 8.4
+    },
+    {
+      "id": 1,
+      "title": "Inception",
+      "posterUrl": "inception.jpg",
+      "genre": ["Action", "Sci-Fi"],
+      "rating": 8.8,
+      "description": "A mind-bending thriller by Christopher Nolan."
+    },
+    {
+      "id": 12,
+      "title": "The Matrix",
+      "posterUrl": "matrix.jpg",
+      "genre": ["Action", "Sci-Fi"],
+      "rating": 8.7,
+      "description": "A revolutionary sci-fi movie by the Wachowskis."
+    }
+  ]
+  

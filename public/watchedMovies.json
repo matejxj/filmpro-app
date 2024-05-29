@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "title": "Inception",
+      "posterUrl": "inception.jpg",
+      "genre": "Sci-Fi",
+      "rating": "8.8",
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO."
+    },
+    {
+      "id": 6,
+      "title": "The Dark Knight",
+      "posterUrl": "thedarkknight.jpg",
+      "genre": "Action",
+      "rating": "9.0",
+      "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham."
+    },
+    {
+        "id": 11,
+        "title": "The Godfather",
+        "genre": ["Crime", "Drama"],
+        "rating": 9.2,
+        "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+        "posterUrl": "thegodfather.jpg"
+    },
+    {
+        "id": 16,
+        "title": "The Shawshank Redemption",
+        "genre": ["Drama"],
+        "rating": 9.3,
+        "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "posterUrl": "theshawshankredemption.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Pulp Fiction",
+        "genre": ["Crime", "Drama"],
+        "rating": 8.9,
+        "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+        "posterUrl": "pulpfiction.jpg"
+      },
+      {
+        "id": 17,
+        "title": "Forrest Gump",
+        "genre": ["Drama", "Romance"],
+        "rating": 8.8,
+        "description": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75.",
+        "posterUrl": "/forrestgump.jpg"
+      }
+  ]
+  
